@@ -96,6 +96,12 @@ When it comes to trends, we saw a significant increase in production from 2015 t
 
 The final interactive dashboard provides a smooth, dynamic way to explore these insights, allowing stakeholders to dive into key metrics, trends, and parameters at their fingertips. 📊
 
+### LinkedIn post
+
+https://www.linkedin.com/posts/kartik-zingade-90227a1a6_netflix-dataanalytics-powerbi-activity-7292608995377172480-fX_7?utm_source=share&utm_medium=member_desktop
+
+
+
 ### What's Next?
 
 While we’ve gathered some solid insights, there’s still plenty more to explore. Future analysis could dive deeper into viewer engagement, content recommendation algorithms, and regional performance trends to further enhance Netflix's content optimization. The journey doesn’t stop here! 🚀🍿
