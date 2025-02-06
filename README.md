@@ -110,7 +110,7 @@ The final interactive dashboard provides a smooth, dynamic way to explore these 
 
 ### LinkedIn post
 
-https://www.linkedin.com/posts/kartik-zingade-90227a1a6_netflix-dataanalytics-powerbi-activity-7292608995377172480-fX_7?utm_source=share&utm_medium=member_desktop
+[Checkout my LinkedIn post](https://www.linkedin.com/posts/kartik-zingade-90227a1a6_netflix-dataanalytics-powerbi-activity-7292608995377172480-fX_7?utm_source=share&utm_medium=member_desktop)
 
 
 
