@@ -1,7 +1,5 @@
 # Streaming-Trends-Netflix
 
-![image](https://github.com/user-attachments/assets/a1b9cb49-c0de-4db6-8306-371b73a791d9)
-
 ## Introduction
 
 This project analyzes Netflix data, showcasing my EDA and presentation skills through data cleaning, modeling, and analysis to highlight key insights and KPIs. It includes predictive elements to address performance trends. The interactive dashboard ensures clarity for stakeholders.  
@@ -42,19 +40,23 @@ This project aims to create a **personalized dashboard** for the client, highlig
 - Imported the dataset into the **working environment** for analysis.  
 - Ensured data readiness for **cleaning, manipulation, and exploration**.
 
-  
+ ![image](https://github.com/kartikkwearsmask/STREAMING-TRENDS-Netflix-Content-Analysis/blob/main/images/Picture1.png?raw=true) 
 
 ### **2️⃣ Data Cleaning & Handling Missing Values**  
 - The dataset contained **inconsistent data, blank cells, and duplicates**, requiring **profiling and cleaning**.  
-- **Missing director names** were replaced with `"Unknown Director"` to facilitate analysis.  
+- **Missing director names** were replaced with `"Unknown Director"` to facilitate analysis.
 - **Blank country values** were filled with `"United States"` as it contributes the majority of content.  
-- **Date inconsistencies** were resolved by **changing the locale type** for uniform formatting.  
+- **Date inconsistencies** were resolved by **changing the locale type** for uniform formatting.
+ 
+![image](https://github.com/kartikkwearsmask/STREAMING-TRENDS-Netflix-Content-Analysis/blob/main/images/Picture2.png?raw=true) ![image](https://github.com/kartikkwearsmask/STREAMING-TRENDS-Netflix-Content-Analysis/blob/main/images/Picture3.png?raw=true)
 
 ### **3️⃣ Duration Column Standardization**  
 - Movies have duration in **minutes**, while TV shows use **seasons**.  
 - Created a **conditional column**:  
   - Movies retain duration in minutes.  
-  - TV shows have `"null"` for consistency in analysis.  
+  - TV shows have `"null"` for consistency in analysis.
+
+![image](https://github.com/kartikkwearsmask/STREAMING-TRENDS-Netflix-Content-Analysis/blob/main/images/Picture4.png?raw=true)
 
 ### **4️⃣ Text Formatting for Better Analysis**  
 - Converted **description & director fields** to **lowercase** to improve data processing.  
@@ -63,12 +65,16 @@ This project aims to create a **personalized dashboard** for the client, highlig
 - Added a **conditional column** to identify **Murder Mystery** content by detecting keywords like:  
   - *"kill"*, *"death"*, *"assassinate"*.  
 - Filtered the dataset to **include only records from the year 2000 onward**, ensuring relevance.  
-- Excluded non-essential columns (e.g., **description**) for a **cleaner, optimized dashboard**.  
+- Excluded non-essential columns (e.g., **description**) for a **cleaner, optimized dashboard**.
+
+![image](https://github.com/kartikkwearsmask/STREAMING-TRENDS-Netflix-Content-Analysis/blob/main/images/Picture5.png?raw=true)
 
 ### **6️⃣ Multi-Genre Handling & Category Mapping**  
 - Since each title belongs to **multiple genres**, we created a separate **"Category Mapping 1" query**:  
   - **Split the "listed_in" column** to map genres individually.  
   - Allowed better analysis of **total genre count and distribution**.
+ 
+![image](https://github.com/kartikkwearsmask/STREAMING-TRENDS-Netflix-Content-Analysis/blob/main/images/Picture6.png?raw=true)
 
  ## Key Findings & Insights 📊  
 
@@ -88,7 +94,9 @@ This project aims to create a **personalized dashboard** for the client, highlig
 - 📈 **Content growth trend:**  
   - **Sharp rise** in TV shows & movies from **2015 to 2018**.  
   - **Sudden decline after 2020**, likely due to the **COVID-19 pandemic**.  
-  - **2018 saw the highest number of content releases**.  
+  - **2018 saw the highest number of content releases**.
+ 
+![image](https://github.com/user-attachments/assets/a1b9cb49-c0de-4db6-8306-371b73a791d9)
 
 ## Project Summary
 
