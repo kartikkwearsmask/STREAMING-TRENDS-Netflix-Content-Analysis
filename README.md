@@ -1,5 +1,7 @@
 # Streaming-Trends-Netflix
 
+![image](https://github.com/user-attachments/assets/a1b9cb49-c0de-4db6-8306-371b73a791d9)
+
 ## Introduction
 
 This project analyzes Netflix data, showcasing my EDA and presentation skills through data cleaning, modeling, and analysis to highlight key insights and KPIs. It includes predictive elements to address performance trends. The interactive dashboard ensures clarity for stakeholders.  
@@ -38,7 +40,9 @@ This project aims to create a **personalized dashboard** for the client, highlig
 
 ### **1️⃣ Data Import & Profiling**  
 - Imported the dataset into the **working environment** for analysis.  
-- Ensured data readiness for **cleaning, manipulation, and exploration**.  
+- Ensured data readiness for **cleaning, manipulation, and exploration**.
+
+  
 
 ### **2️⃣ Data Cleaning & Handling Missing Values**  
 - The dataset contained **inconsistent data, blank cells, and duplicates**, requiring **profiling and cleaning**.  
